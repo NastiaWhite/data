@@ -1,0 +1,8 @@
+function getNumbers(string) {
+  var array = [];
+  for (var i = 0; i < string.length ; i++){
+    var numb = parseInt(string[i]);
+      if(!isNaN(numb)) array.push(numb);
+    }
+    return array;
+}
