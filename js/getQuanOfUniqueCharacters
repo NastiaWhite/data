@@ -1,7 +1,0 @@
-function getQuanOfUniqueCharacters(string) {
-    var all = 0;
-      string.split("").sort().forEach(function(item,i,array){
-        if(array[i] != array[i + 1]) all++;
-    });
-    return all;
-};
