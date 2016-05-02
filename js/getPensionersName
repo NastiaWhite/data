@@ -1,0 +1,9 @@
+function getPensionersName(string) {
+    var Pensioners_Name = [];
+    for (var i = 0; i < string.length; i++) {
+        if (string[i].age >= 65) {
+            Pensioners_Name = (string[i].name);
+        }
+    }
+    return Pensioners_Name;
+}
