@@ -1,52 +1,13 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>home task</title>
-    </head>
-    <body>
-        <script>
-        //1
-              function getNumbers(string) {
-                var array = [];
-               for (var i = 0; i < string.length ; i++){
-                 var numb = parseInt(string[i]);
-                    if(!isNaN(numb)) array.push(numb);
-                 }
-                 return array;
-              }
+<html lang="en">
 
-//2
-              function getNumericSum(string) {
-               var all = 0;
-               for (var i = 0; i < string.length ; i++){
-                  var numb = parseInt(string[i]);
-                 if (!isNaN(numb)) all += numb;
-                 }
-                 return all;
-              }
+<head>
+    <meta charset="UTF-8">
+    <title>Data-types</title>
 
-//3 поки не працює,потім дороблю
-//4
+</head>
+<body>
+    <script src="./js/main.js"></script>
+</body>
 
-              function getQuanOfUniqueCharacters(string) {
-                  var all = 0;
-                  string.split("").sort().forEach(function(item,i,array){
-                      if(array[i] != array[i + 1]) all++;
-                  });
-                return all;
-              };
-//5
-
-              function getPensionersName(string) {
-                 var Pensioners_Name = [];
-                 for (var i = 0; i < string.length; i++) {
-                    if (string[i].age >= 65) {
-                         Pensioners_Name = (string[i].name);
-                      }
-                  }
-                  return Pensioners_Name;
-              }
-              </script>
-    </body>
 </html>
