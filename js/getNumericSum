@@ -1,8 +1,0 @@
-function getNumericSum(string) {
-  var all = 0;
-  for (var i = 0; i < string.length ; i++){
-    var numb = parseInt(string[i]);
-      if (!isNaN(numb)) all += numb;
-    }
-    return all;
-}
