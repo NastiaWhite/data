@@ -18,7 +18,18 @@ function getNumericSum(string) {
     return all;
 }
 
-//3 поки не працює,потім дороблю
+//3 
+function getQuanOfUniqueElements(string) {
+        var a = 0;
+        var b = [];
+        for (i = 0; i < string.length; i++) {
+            if (b.indexOf(string[i]) == -1) {
+                b.push(string[i]);
+            }
+            a = b.length;
+        } return a;
+
+    }
 //4
 
 function getQuanOfUniqueCharacters(string) {
